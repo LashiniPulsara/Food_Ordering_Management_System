@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+frontend/.env
+backend/.env
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
